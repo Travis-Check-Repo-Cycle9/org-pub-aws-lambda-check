@@ -1,0 +1,10 @@
+os: linux
+dist: focal
+language: python
+arch: arm64
+deploy:
+  provider: lambda
+  access_key_id: AKIAU65TDUORKKK4T447
+  secret_access_key: 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
+  function_name: test_bsfy_func_142
+  edge: true
