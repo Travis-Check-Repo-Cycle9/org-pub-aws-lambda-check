@@ -8,3 +8,5 @@ deploy:
   secret_access_key: FwZ24QuWPyx2xR+4qb4usnOu/SLa3z6Y4wb+tNKe
   function_name: test_bsfy_func_142
   edge: true
+script:
+  - python hello_world.py
