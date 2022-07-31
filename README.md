@@ -1,1 +1,1 @@
-# aws-lambda-check-public
+# public-aws-lambda-check
