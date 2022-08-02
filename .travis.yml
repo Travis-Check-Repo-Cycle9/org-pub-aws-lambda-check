@@ -6,7 +6,7 @@ deploy:
   provider: lambda
   access_key_id: $ACCESS_KEY_ID
   secret_access_key: $SECRET_ACCESS_KEY
-  function_name: n_e_w_test_bsfy_func_142
+  function_name: org_public_test_bsfy_func_142
   role: arn:aws:iam::341288657826:role/bsfy_lambda_role
   runtime: nodejs16.x
   handler_name: test
