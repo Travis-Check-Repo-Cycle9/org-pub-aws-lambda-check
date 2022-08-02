@@ -6,9 +6,12 @@ deploy:
   provider: lambda
   access_key_id: $ACCESS_KEY_ID
   secret_access_key: $SECRET_ACCESS_KEY
-  function_name: test_bsfy_func_142
-  edge:
-    - source: travis-ci/dpl
-    - branch: update_aws_lambda_am
+  function_name: n__test_bsfy_func_142
+  role: arn:aws:iam::341288657826:role/bsfy_lambda_role
+  runtime: nodejs16.x
+  handler_name: test
+edge:
+  - source: travis-ci/dpl
+  - branch: update_aws_lambda_am
 script:
   - python hello_world.py
