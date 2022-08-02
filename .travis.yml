@@ -7,7 +7,7 @@ deploy:
   access_key_id: $ACCESS_KEY_ID
   secret_access_key: $SECRET_ACCESS_KEY
   function_name: test_bsfy_func_142
-  role: bsfy_lambda_role
+  role: arn:aws:iam::341288657826:role/bsfy_lambda_role
   edge:
     - source: travis-ci/dpl
     - branch: update_aws_lambda_am
